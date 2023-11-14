@@ -60,4 +60,7 @@ int get_width(const char *format, int *i, va_list args);
 int get_flags(const char *format, int *i);
 int get_size(const char *format, int *i);
 
+/*utils functions*/
+int is_digit(char);
+
 #endif
