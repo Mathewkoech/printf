@@ -13,8 +13,8 @@ int print_revstr(va_list ap)
 	char *s = va_arg(ap, char*);
 	int i;
 	int j;
-    
-    j= 0;
+
+	j = 0;
 	if (s == NULL)
 		s = "(null)";
 	while (s[j] != '\0')

@@ -12,8 +12,8 @@ int printf_HEX5(unsigned int ex_)
 	int *arr;
 	unsigned int dummy;
 
-    dummy = ex_;
-    count = 0;
+	dummy = ex_;
+	count = 0;
 	while (ex_ / 16 != 0)
 	{
 		ex_ /= 16;
@@ -24,7 +24,7 @@ int printf_HEX5(unsigned int ex_)
 
 	for (i = 0; i < count; ++i)
 	{
-		arr[i] = dummy% 16;
+		arr[i] = dummy % 16;
 		dummy /= 16;
 	}
 
